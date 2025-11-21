@@ -1,105 +1,66 @@
-This repository contains a complete data analysis project for Blinkit, including a fully interactive Power BI dashboard and the SQL queries used for data cleaning, transformation, and KPI calculation. The goal of the project is to analyze sales performance, customer behavior, product trends, and outlet-level insights to support data-driven decision-making.
+This repository showcases an end-to-end data analysis project for Blinkit, combining SQL-based data preparation with an interactive Power BI dashboard. The project focuses on understanding business performance through sales trends, product behavior, customer ratings, and outlet-level insights.
 
-📁 Files in This Repository
-1. Blinkit Business Insights.pbix
+🚀 Project Highlights
 
-A Power BI dashboard that visualizes key metrics such as:
+* End-to-end data analysis workflow
 
-Sales trends
+* SQL queries for data cleaning, processing, and KPI extraction
 
-Customer ratings
+* Power BI dashboard for intuitive data visualization
 
-Product category performance
+* Business insights across outlets, products, categories, and ratings
 
-Fat content breakdown
+📁 Included Files
+Blinkit Business Insights
 
-Outlet-level insights
+An interactive Power BI dashboard that visualizes:
 
-Location and size–wise comparisons
+* Total Sales, Average Sales, Number of Items, and Average Rating
 
-KPIs: Total Sales, Avg Sales, Number of Items, Avg Rating
+* Sales breakdown by fat content, item type, outlet size, and location
 
-2. SQL Query Blinkit Business Insights.docx 
+* Outlet establishment year trends
 
-SQL Quary Blinkit Business Insi…
+* Comparison of outlet types and their performance
 
-This document includes all SQL scripts used for:
+SQL Query Blinkit Business Insights.docx
 
-Data cleaning
+Contains all SQL scripts used in the project, including:
 
-Data transformation
+* Data cleaning (e.g., standardizing fat content categories)
 
-Feature engineering
+* KPI calculations
 
-KPI calculation
+* Pivot transformations
 
-Pivot tables for fat content analysis
+* Sales and rating analysis across multiple dimensions
 
-Outlet-wise sales, size, and establishment metrics
+* Complete query explanations for better understanding
 
-📊 Dashboard Overview
+📊 What This Project Solves
 
-The Blinkit Business Insights Dashboard helps stakeholders understand:
+* Identifies which product types contribute most to revenue
 
-Which product categories drive the highest sales
+* Shows how outlet size and location impact sales
 
-How fat content affects revenue
+* Highlights sales patterns based on item visibility and fat content
 
-Which outlet locations outperform others
+* Provides a holistic view of outlet performance across the company
 
-Which establishment years show higher sales
+🛠️ Tools & Technologies
 
-How customers rate different products
+* Power BI (Data modeling + Visualization)
 
-Sales contribution by outlet size and type
+* SQL (Data cleaning, wrangling, and metrics extraction)
 
-It offers interactive filtering, drill-downs, clean design, and actionable visuals.
+* DAX (KPI calculations inside Power BI)
 
-🧮 Key SQL Insights (from the .docx file)
-✔ Data Cleaning
+🧠 Core Learnings
 
-Standardization of Item_Fat_Content to avoid inconsistent categories:
+* How SQL and Power BI can integrate to create a full analytical pipeline
 
-"LF", "low fat" → Low Fat
+* Importance of data cleaning for consistent business insights
 
-"reg" → Regular
+* How filtering, drilling down, and aggregations help uncover trends
 
-✔ KPI Calculations
-
-Total Sales
-
-Average Sales
-
-Number of Items
-
-Average Rating
-
-✔ Advanced Metrics
-
-Includes:
-
-Sales by Fat Content
-
-Sales by Item Type
-
-Outlet Location comparison
-
-Outlet Establishment Year trend
-
-Sales % by Outlet Size
-
-Full metrics (Sales, Avg Sales, Items, Rating, Visibility) by Outlet Type
-
-All queries are included in the SQL document. 
-
-SQL Quary Blinkit Business Insi…
-
-🛠️ Tech Stack
-
-Power BI – Dashboard creation
-
-SQL Server / MySQL – Backend data preparation
-
-DAX – Measures & calculated fields
-
-Power Query – Data transformation
+* Real-world style retail analytics workflow
