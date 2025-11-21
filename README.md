@@ -23,7 +23,7 @@ An interactive Power BI dashboard that visualizes:
 
 * Comparison of outlet types and their performance
 
-SQL Query Blinkit Business Insights.docx
+SQL Query Blinkit Business Insights
 
 Contains all SQL scripts used in the project, including:
 
